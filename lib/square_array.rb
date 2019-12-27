@@ -8,9 +8,8 @@ while array.size > index do
 
   x = array[counter]
 
-  y = array[counter]
 
-new_array.push(x ** y )
+new_array.push(x ** x )
 
 counter += 1
 

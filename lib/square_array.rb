@@ -4,13 +4,15 @@ new_array = []
 
 counter = 0
 
-x = array[counter]
+
 
 y = 2
 
 while counter < array.length do
 
-  new_array.push( array[counter]** y)
+  x = array[counter]
+
+  new_array.push( x ** y)
 
   counter += 1
 

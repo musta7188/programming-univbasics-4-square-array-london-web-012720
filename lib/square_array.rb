@@ -1,3 +1,17 @@
 def square_array(array)
-  # your code here
+
+  index  = 0
+
+while array.size > index do
+
+
+
+x = array[index]
+
+
+puts x ** array[index]
+
+index += 1
+
+end
 end

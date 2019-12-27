@@ -1,19 +1,15 @@
 def square_array(array)
 
-  new_array = []
+new_array = []
 
-  counter = 0
+counter = 0
 
+while counter < array.length do
+  
+  new_array << array[counter] ** 2
 
-while array[counter] do
-
-new_array <<  array[counter] ** x
-
-counter += 1
-
-
+  counter += 1
+  
 end
-
 new_array
-
 end

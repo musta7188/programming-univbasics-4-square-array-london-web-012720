@@ -10,7 +10,7 @@ y = 2
 
 while counter < array.length do
 
-  new_array.push(x ** y)
+  new_array.push( array[counter]** y)
 
   counter += 1
 

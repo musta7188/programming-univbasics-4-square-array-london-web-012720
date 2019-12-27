@@ -4,12 +4,11 @@ def square_array(array)
 
   counter = 0
 
+  x = 2
+
 while array.size > index do
 
-  x = array[counter]
-
-
-new_array.push(x ** x )
+new_array.push(array[counter] ** x)
 
 counter += 1
 

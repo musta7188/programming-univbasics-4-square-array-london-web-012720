@@ -6,7 +6,11 @@ def square_array(array)
 
 while array.size > index do
 
-new_array.push([counter ** counter])
+  x = array[counter]
+
+  y = array[counter]
+
+new_array.push(x ** y )
 
 counter += 1
 

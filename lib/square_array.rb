@@ -4,14 +4,10 @@ new_array = []
 
 counter = 0
 
-
-
-y = 2
-
 while counter < array.length do
 
   x = array[counter]
-
+y = 2
   new_array.push( x ** y)
 
   counter += 1

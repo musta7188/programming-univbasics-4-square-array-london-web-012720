@@ -1,17 +1,17 @@
 def square_array(array)
 
-  index  = 0
+  new_array = []
+
+  counter = 0
 
 while array.size > index do
 
+new_array.push([counter ** counter])
 
+counter += 1
 
-x = array[index]
-
-
-puts x ** array[index]
-
-index += 1
 
 end
+
+new_array
 end
